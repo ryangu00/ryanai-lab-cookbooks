@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Draw the repo banner. Pure PIL, no generated imagery — RyanAI Lab house style.
 
-Concept: 38 first-hand cookbooks, pick the one you need.
+Concept: first-hand cookbooks, pick the one you need.
 Left = wordmark. Right = an index grid of 38 small tiles (one per cookbook),
 with a single orange tile marking the one you pick.
 """
@@ -48,7 +48,7 @@ for ox, oy in ((72, 78), (1150, 536)):
 # wordmark
 d.text((80, 196), "RYANAI LAB", font=f_title, fill=WHITE)
 d.text((80, 288), "COOKBOOK INDEX", font=f_title, fill=WHITE)
-d.text((82, 414), "38 first-hand cookbooks — pick the one you need.", font=f_tag, fill=WHITE)
+d.text((82, 414), "First-hand cookbooks — pick the one you need.", font=f_tag, fill=WHITE)
 d.text((82, 462), "ONE REPOSITORY PER EXPERIMENT · FIRST-HAND NUMBERS · REPRODUCIBLE", font=f_mono, fill=GREY)
 
 # right: index motif — a grid of 38 book tiles, one picked (orange)
